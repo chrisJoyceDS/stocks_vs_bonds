@@ -8,3 +8,7 @@ As I continue to look for a job and plan for the future, I would like to be able
 - 2. Explore Stock and Bond Information
 - 3. Visualize trends and relationships within each class and each class
 - 4. Create Time series models to predict changes in price
+
+
+Resources:
+https://towardsdatascience.com/python-for-finance-stock-portfolio-analyses-6da4c3e61054
