@@ -12,3 +12,6 @@ As I continue to look for a job and plan for the future, I would like to be able
 
 Resources:
 https://towardsdatascience.com/python-for-finance-stock-portfolio-analyses-6da4c3e61054
+
+Initial Dataset:
+https://www.kaggle.com/datasets/paultimothymooney/stock-market-data
