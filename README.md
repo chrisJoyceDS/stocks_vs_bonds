@@ -1,4 +1,5 @@
 # stocks_vs_bonds
+#Update, pivoting to Monte Carlo Simulation!
 Time Series prediction on Prices v. Yields of the US Market
 
 ##Background
