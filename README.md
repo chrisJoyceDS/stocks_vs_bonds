@@ -45,3 +45,14 @@ Use and verify different portfolio optimization strategies for different financi
 - Hiearchical Risk Parity (HRP)
 - Mean Conditional Value At Risk (MCVAR)
 Develop a pipeline that extracts financial instrument information, tansforms the data into a model ready state, models those instruments based on a selected method, visualize for the user all information available and modeled information and insights. Create a financial Dashboard using Tableau and host this information for public use for anyone interested in portfolio optimization and/or financial instruments in the market. Can risk be quantified?
+
+## Data Dictionary
+
+## Brief Summary of Analysis
+
+## Conclusions and Recommendations
+
+## File Structure
+
+## Sources
+- Investopedia
