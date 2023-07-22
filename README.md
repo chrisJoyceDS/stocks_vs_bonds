@@ -56,3 +56,8 @@ Develop a pipeline that extracts financial instrument information, tansforms the
 
 ## Sources
 - Investopedia
+
+## Learnings so far:
+- Creating a database and planning the table structure is more difficult and mostly guess work at this point in my learning path
+- So far it looks like the date values of stock price information didnt load properly into the database, still need to do additional discovery and eda on the information weve gathered so far
+- Certain stocks have been de-listed from the original list of ~2500 stock tickers gathered from a kaggle dataset, will have to take that into account for final public dashboard.
