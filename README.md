@@ -47,6 +47,40 @@ Use and verify different portfolio optimization strategies for different financi
 Develop a pipeline that extracts financial instrument information, tansforms the data into a model ready state, models those instruments based on a selected method, visualize for the user all information available and modeled information and insights. Create a financial Dashboard using Tableau and host this information for public use for anyone interested in portfolio optimization and/or financial instruments in the market. Can risk be quantified?
 
 ## Data Dictionary
+|Feature|Type|Table|Description|
+|:---|:---:|:---:|---:|
+|**ticker_id**|*Serial Primary Key*|*ticker*|Primary key for each stock ticker symbol in the ticker table|
+|**ticker_symbol**|*object*|ticker|Abbreviation for a given Company's Stock, also referred to as a Ticker Symbol|
+|**price_id**|*Serial Primary Key*|*price*|Primary key for each date and price of a particular stock|
+|**date**|*Date*|*price*|Given date for a given price record for a given stock|
+|**open**|*numeric/float64*|*price*|The price of the first trade for any listed stock of a given date|
+|**high**|*numeric/float64*|*price*|The highest intraday price of a stock in the most recent (or current) trading session.|
+|**low**|*numeric/float64*|*price*|The lowest intraday price of a stock in the most recent (or current) trading session.|
+|**close**|*numeric/float64*|*price*|The price of the last transacttion in a security befor ethe market officially closes for normal trading.|
+|**adj_close**|*numeric/float64*|*price*|The closing price after adjustments for all applicable splits and dividend distributions|
+|**volume**|*bigint/int64*|*price*|The amount of a stock that changes hands over the course of a single trading day.|
+
+## Database Structure
+PostgreSQL Database
+
+Table: ticker
+|Feature|Type|
+|:---|---:|
+|**ticker_id**|*SERIAL PRIMARY KEY*|
+|**ticker_symbol**|*VARCHAR(10) NOT NULL*|
+
+Table: price
+|Feature|Type|
+|:---|---:|
+|**price_id**|*SERIAL PRIMARY KEY*|
+|**ticker_id**|*INT REFERENCES ticker(ticker_id)*|
+|**date**|*DATE*|
+|**open**|*NUMERIC*|
+|**high**|*NUMERIC*|
+|**low**|*NUMERIC*|
+|**close**|*NUMERIC*|
+|**adj_close**|*NUMERIC*|
+|**volume**|*BIGINT*|
 
 ## Brief Summary of Analysis
 
