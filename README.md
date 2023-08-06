@@ -101,6 +101,9 @@ Table: price
 #### Data Cleaning and Preprocessing:
 - Complete data cleaning and handling missing values, if any.
 - Ensure consistency in data formats and resolve any data quality issues.
+- Create Classes/Methods to check database data and update
+- Capture more asset classes and market indicators
+- Update Database to house more data
 #### Data Exploration and Visualization:
 - Continue the exploratory data analysis (EDA) to gain insights into the stock data.
 - Create more visualizations to understand the relationships between different stock attributes.
@@ -137,3 +140,4 @@ Table: price
 #### Documentation and Deployment:
 - Document the codebase and provide clear instructions on how to use the tool.
 - Deploy the application to a cloud server using AWS RDS for PostgreSQL and AWS EC2 or other suitable hosting options.
+
