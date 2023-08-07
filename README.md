@@ -96,6 +96,33 @@ Table: price
 - So far it looks like the date values of stock price information didnt load properly into the database, still need to do additional discovery and eda on the information weve gathered so far
 - Certain stocks have been de-listed from the original list of ~2500 stock tickers gathered from a kaggle dataset, will have to take that into account for final public dashboard.
 
+## Requirements Documentation:
+
+In progress
+
+### MVO Breakdown and Application:
+
+- Step 1: Define the Asset Universe:
+    - Start by selecting the assets (e.g., stocks, bonds, commodities) that you want to include in the portfolio. Each asset should have historical return data available.
+- Step 2: Gather Asset Data:
+    - Collect historical return data for each asset in your chosen universe over a specific time period. This data will be used to estimate expected returns and covariances.
+- Step 3: Formulate the Optimization Problem:
+    - The optimization problem is to find the weights (allocation) of each asset in the portfolio that maximize the portfolio's expected return for a given level of risk or minimize the risk for a given level of expected return.
+- Step 4: Calculate Expected Return and Covariance:
+    - Compute the expected return of each asset based on historical data.
+    - Calculate the covariance matrix, which represents the relationships between asset returns.
+- Step 5: Define the Objective Function:
+    - The objective function represents the goal of the optimization. It is typically the portfolio's expected return or its risk (variance).
+- Step 6: Set Constraints:
+    - Constraints define the boundaries for the optimization. They can include the sum of weights equaling 1 (fully invested) and specifying minimum or maximum allocations for certain assets.
+- Step 7: Solve the Optimization Problem:
+    - Use mathematical optimization techniques, such as the Markowitz Mean-Variance Optimization model, to find the optimal allocation of assets that meets the defined objectives and constraints.
+- Step 8: Construct the Efficient Frontier:
+    - Calculate multiple portfolios with varying levels of risk, adjusting the weights of assets. Plot these portfolios on a graph to form the efficient frontier.
+- Step 9: Select an Optimal Portfolio:
+    - Investors can then select a portfolio from the efficient frontier based on their risk appetite and return expectations.
+
+
 ## Roadmap:
 ### Week 1: <br>
 #### Data Cleaning and Preprocessing:
