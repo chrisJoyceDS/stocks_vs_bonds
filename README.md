@@ -98,7 +98,7 @@ Table: price
 
 ## Requirements Documentation:
 
-In progress
+<a href="https://docs.google.com/spreadsheets/d/1UmFrOMUv6yzGDFWxAzAwUQOMNrDi-OfSEeYIrY2Q5G8/edit#gid=0"> Functional Requirements </a>
 
 ### MVO Breakdown and Application:
 
