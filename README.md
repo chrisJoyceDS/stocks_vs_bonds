@@ -104,6 +104,7 @@ Table: price
 
 - Step 1: Define the Asset Universe:
     - Start by selecting the assets (e.g., stocks, bonds, commodities) that you want to include in the portfolio. Each asset should have historical return data available.
+    - working on available sources for additional asset classes and designing portfolio structure
 - Step 2: Gather Asset Data:
     - Collect historical return data for each asset in your chosen universe over a specific time period. This data will be used to estimate expected returns and covariances.
 - Step 3: Formulate the Optimization Problem:
