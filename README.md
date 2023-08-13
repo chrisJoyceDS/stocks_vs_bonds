@@ -4,6 +4,7 @@
 # Table of Contents:
 - Background
 - Introduction
+- Research
 - Problem Statement
 - Data Dictionary
 - Brief Summary of Analysis
