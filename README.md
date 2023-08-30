@@ -170,3 +170,6 @@ Table: price
 - Document the codebase and provide clear instructions on how to use the tool.
 - Deploy the application to a cloud server using AWS RDS for PostgreSQL and AWS EC2 or other suitable hosting options.
 
+## Sources:
+https://medium.com/@changjulian17/portfolio-allocation-reinforcement-learning-ppo-model-part-i-5cabd5aaaa93
+https://medium.com/@changjulian17/portfolio-allocation-reinforcement-learning-ppo-model-part-ii-56ecf76a941b
